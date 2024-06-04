@@ -60,7 +60,10 @@ const rangeSlider = document.querySelector('#range-slider');
 rangeSlider.addEventListener('input', (e) => {
     gridSize = e.target.value;
     document.getElementById('range-value').textContent = gridSize;
+    document.getElementById('range-value2').textContent = gridSize;
+
     createGrid();
+   
 });
 
 // Clear grid logic
@@ -78,3 +81,13 @@ gridBtn.addEventListener('click', () => {
         square.classList.toggle('border-hidden');
     });
 });
+
+ let progressBar = document.getElementById('progress-bar');
+
+function rangeSliderValue(value) {
+    let gridLabels = document.querySelectorAll('#range-value');
+    for (let i = 0; i < gridLabels.length; i++) {
+      gridLabels[i].textContent = value;
+    }
+    progressBar.style.width = (value / 60) * 90 + '%';
+  }
