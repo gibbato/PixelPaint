@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PixelPaint</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="FIXMEHEREPLEASE.png">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1>PixelPaint</h1>
+            </div>
+            <div class="main">
+                <div class="controls">
+                    <div class="color-card">
+                        <div class="color-box">
+                            <input type="color" id="color-select">
+                        </div>
+                        <span>Draw color</span>
+                    </div>
+                    <div class="color-card cc2">
+                        <div class="color-box">
+                            <input type="color" id="bg-color-select">
+                        </div>
+                        <span>Background color</span>
+                    </div>
+                    
+                
+                <button id="color-fill">Color Fill</button>
+                <button id="color-grabber">Color Grabber</button>
+
+                
+
+                <div class="slider-box">
+                    <input type="range" value="24" min="1" mac="60" id="range-slider" onmousemove="rangeSliderValue(this.value)" onChange="rangeSlider(this.value)">
+                    <div id="progress-bar"></div>
+                </div>
+
+                <p class="grid-size">Grid size: <span id="range-value">24</span> x <span id="range-value">24</span></p>
+
+                <button id="grid-btn" class="btn-on">Toggle Grid Lines</button>
+                <button id="clear-grid">Clear</button>
+
+            </div>
+            <div class="grid-wrapper">
+                <div class="grid-container toggle-grid" draggable="false"></div>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
