@@ -1,6 +1,6 @@
 # Pixelangelo
 
-![Pixelangelo](favicon.png)
+
 
 ## Overview
 Pixelangelo is a pixel art creation tool that allows users to create and manipulate pixel art with various tools like color selection, color fill, shading, and more. This project is built using HTML, CSS, and JavaScript, and provides an interactive interface for pixel art enthusiasts.
@@ -14,8 +14,7 @@ Pixelangelo is a pixel art creation tool that allows users to create and manipul
 - **Clear Grid**: Clear the grid with a smooth fade effect.
 - **Toggle Grid Lines**: Show or hide grid lines.
 
-## Screenshots
-![Pixelangelo Screenshot](path/to/screenshot.png)
+
 
 ## How to Use
 
