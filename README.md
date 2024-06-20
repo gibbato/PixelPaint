@@ -27,4 +27,5 @@ Pixelangelo is a pixel art creation tool that allows users to create and manipul
 7. **Toggle Grid Lines**: Click the "Toggle Grid Lines" button to show or hide grid lines.
 
 
-[Pixelangelo]([https://www.yourwebsite.com](https://pixelangelo.netlify.app))
+## Visit the Website
+Check out the live version of Pixelangelo at [Pixelangelo](https://www.pixelangelo.com).
